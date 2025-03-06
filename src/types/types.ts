@@ -19,8 +19,10 @@ export type Item = {
 /**
  * Тип для списка товаров
  * @property {Item[]} items - Список товаров, поступающих с сервера
+ * @property {number} count - Кол-во товаров поступившее с сервера
  */
 export type ItemsList = {
+  count: number,
   items: Item[]
 };
 
